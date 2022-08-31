@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/opentrivia/static/js/main.fadc5c23.js",
+    "index.html": "/opentrivia/index.html",
+    "main.fadc5c23.js.map": "/opentrivia/static/js/main.fadc5c23.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fadc5c23.js"
+  ]
+}

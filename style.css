@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F7FB;
+}
+
+.blob--top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.blob--bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.title--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.title--init {
+    text-align: center;
+}
+
+.title--header {
+    color: #293264;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+}
+
+.title--subheader {
+    color: #293264;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.game--start, .button {
+    color: #F5F7FB;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background: #4D5B9E;
+    border-radius: 15px;
+    border: none;
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.question--items {
+    display: flex;
+}
+
+.quiz--container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 70%;
+    max-width: 220px;
+
+}
+
+.question--container {
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #293264;
+}
+
+.question--items {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 20px;
+
+}
+
+.question--items label {
+    cursor: pointer;
+    color: #293264;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 7.94239px;
+    padding: 5px 10px 5px 10px;
+    margin: 0 10px;
+    border-color: #293264;
+    border: 1.3px solid #293264;
+    text-align: center;
+
+    
+}
+
+.question--container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.game--check {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+input {
+    display: none;
+}
+
+
+input[type='radio']:checked + label { background-color:#D6DBF5; }
+
+
+
+.other--answer {
+    opacity: 0.4;
+}
+
+#correct--answer  {
+    background-color: #94D7A2 !important; 
+    opacity: 1 !important;
+}
+
