@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/opentrivia/static/js/main.fadc5c23.js",
+    "main.css": "/opentrivia/static/css/main.34a71f39.css",
+    "main.js": "/opentrivia/static/js/main.91cd43fe.js",
     "index.html": "/opentrivia/index.html",
-    "main.fadc5c23.js.map": "/opentrivia/static/js/main.fadc5c23.js.map"
+    "main.34a71f39.css.map": "/opentrivia/static/css/main.34a71f39.css.map",
+    "main.91cd43fe.js.map": "/opentrivia/static/js/main.91cd43fe.js.map"
   },
   "entrypoints": [
-    "static/js/main.fadc5c23.js"
+    "static/css/main.34a71f39.css",
+    "static/js/main.91cd43fe.js"
   ]
 }
